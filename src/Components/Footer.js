@@ -12,15 +12,6 @@ export default function Footer() {
 const StyledFooter = styled.footer`
   display: flex;
   justify-content: center;
-  color: #fefae0;
   padding: 1rem;
   font-size: 1.2rem;
-  ul {
-    display: flex;
-    list-style-type: none;
-    margin-left: 38%;
-    a {
-      margin-left: 1rem;
-    }
-  }
 `;

@@ -34,6 +34,6 @@ body {
 	justify-content: space-between;
 }
 
-header, footer {
-  background-color: #bc6c25;
+.yellowtail {
+	font-family: 'Yellowtail', cursive;
 }

@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <StyledNavbar>
             <a href="/" id="mainLogo">
-                <h3>J&M</h3>
+                <h3 className="yellowtail" >J&M</h3>
             </a>
             <nav>
                 <ul>
@@ -15,13 +15,35 @@ export default function Navbar() {
                     <li><Link to="/rsvp" >RSVP</Link></li>
                 </ul>
             </nav>
-            <div></div>
         </StyledNavbar>
     )
 }
 
 const StyledNavbar = styled.div`
-    a:hover {
-        color: #dda15e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    
+    h3 {
+        color: #283618;
+        :hover {
+            color: #606c38;
+        }
+    }
+    #mainLogo, ul {
+        display: flex;
+    }
+    #mainLogo {
+        font-size: 3.2rem;
+    }
+    a {
+        margin: 0 2rem;
+        :hover {
+            color: #dda15e;
+        }
+    }
+    ul {
+        list-style-type: none;
     }
 `
