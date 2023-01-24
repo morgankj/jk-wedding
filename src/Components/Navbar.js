@@ -10,9 +10,9 @@ export default function Navbar() {
             <nav>
                 <ul>
                     <li><Link to="/" >OurStory</Link></li>
-                    <li><Link to="/gallery" >Gallery</Link></li>
-                    <li><Link to="/registry" >Registry</Link></li>
                     <li><Link to="/rsvp" >RSVP</Link></li>
+                    <li><Link to="/registry" >Registry</Link></li>
+                    <li><Link to="/gallery" >Gallery</Link></li>
                 </ul>
             </nav>
         </StyledNavbar>
@@ -26,16 +26,15 @@ const StyledNavbar = styled.div`
     padding: 0.5rem 0;
     
     h3 {
-        color: #283618;
+        color: #bc6c25;
+        -webkit-text-stroke: 1px #fefae0;
+        font-size: 3.9rem;
         :hover {
             color: #606c38;
         }
     }
     #mainLogo, ul {
         display: flex;
-    }
-    #mainLogo {
-        font-size: 3.2rem;
     }
     a {
         margin: 0 2rem;
