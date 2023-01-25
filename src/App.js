@@ -1,6 +1,9 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Components/Home";
+import Rsvp from "./Components/RSVP";
+import Registry from "./Components/Registry";
+import Gallery from "./Components/Gallery";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 
@@ -11,7 +14,10 @@ function App() {
         <Navbar />
       </header>
       <Routes>
-          <Route path="/" element={<Home />}></Route>
+        <Route path="/gallery" element={<Gallery />}></Route>
+        <Route path="/registry" element={<Registry />}></Route>
+        <Route path="/rsvp" element={<Rsvp />}></Route>
+        <Route path="/" element={<Home />}></Route>
       </Routes>
 
       <Footer />
