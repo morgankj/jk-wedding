@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import hugAtTheRanch from "../Images/HugAtTheRanch.jpg";
-import Northlake from "../Images/Northlake.png";
+// import Northlake from "../Images/Northlake.png";
 
 export default function Home() {
   return (
@@ -21,7 +21,8 @@ export default function Home() {
                 <p>Taco Bell and wedding cake will be served buffet style!</p>
                 <p>To see a full breakdown of the menu, click <a href="https://www.tacobell.com/" target="_blank" rel="noreferrer">here</a></p>
             </div>
-            <img alt="Northlake Church" src={Northlake} />
+            <div className="churchPic" ></div>
+            {/* <img alt="Northlake Church" src={Northlake} /> */}
         </div>
         <div className="aboutUsContainer">
             <img alt="Jon hugging Morgan from behind" src={hugAtTheRanch} />
@@ -61,6 +62,15 @@ h2 {
             color: #dda15e;
         }
         .weddingDetailText {
+        }
+        .churchPic {
+            background-image: url("../Images/Northlake.png");
+            height:30vh;
+            width: 100%;
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-attachment: fixed; */
         }
         img {
             height: 30rem;
