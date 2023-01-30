@@ -1,17 +1,17 @@
 import styled from "styled-components";
 import hugAtTheRanch from "../Images/HugAtTheRanch.jpg";
-// import Northlake from "../Images/Northlake.png";
+import Northlake from "../Images/Northlake.png";
 
 export default function Home() {
   return (
     <StyledHome>
         <div className="bibleVerse">
-            <h2 className="yellowtail">“Scarcely had I passed them when I found the one my heart loves.”</h2>
+            <h2>“Scarcely had I passed them when I found the one my heart loves.”</h2>
             <p>- Song of Solomon 3:4 NIV</p>
         </div>
         <div className="weddingDetails">
             <div className="weddingDetailText">
-                <h2 className="yellowtail">The Big Day</h2>
+                <h2>The Big Day</h2>
                 <p>The ceremony and reception will both take place at Northlake Church in Lago Vista. Both will be indoors, so don't sweat the hot weather!</p>
                 <div className="whereWhen">
                     <p><b>Where:</b> 3610 Lohman Ford Rd, Lago Vista, TX 78645</p>
@@ -27,7 +27,7 @@ export default function Home() {
         <div className="aboutUsContainer">
             <img alt="Jon hugging Morgan from behind" src={hugAtTheRanch} />
             <div className="aboutUsText">
-                <h1 className="yellowtail">About Us</h1>
+                <h1>About Us</h1>
                 <div>
                     <p>Jon and Morgan were two individuals who had grown accustomed to single-dom, but were both frequently “encouraged” by friends and family to keep searching for a partner. In their great humility and excellent grace, Jon and Morgan take this opportunity to officially thank their loved ones for this “loving pressure,” because life truly came into full bloom when they finally found each other.</p>
                     <p>The pair first met through the dating app Bumble on February 28th, 2022. Jon always says that when Morgan reached out to him, something in him knew that he had to meet her. They went on their first date several days later at Pinballz arcade on March 4th, and history was made.</p>
@@ -42,9 +42,9 @@ export default function Home() {
 }
 
 const StyledHome = styled.div`
-h2 {
-    font-size: 4rem;
-}
+    h2 {
+        font-size: 4rem;
+    }
     .bibleVerse {
         padding: 5rem 0 8rem;
         h2 {
@@ -64,13 +64,12 @@ h2 {
         .weddingDetailText {
         }
         .churchPic {
-            background-image: url("../Images/Northlake.png");
+            background-image: url(${Northlake});
             height:30vh;
             width: 100%;
             background-position:center;
             background-repeat: no-repeat;
             background-size: cover;
-            /* background-attachment: fixed; */
         }
         img {
             height: 30rem;

@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <StyledNavbar>
             <a href="/" id="mainLogo">
-                <h3 className="yellowtail" >J&M</h3>
+                <h3>J&M</h3>
             </a>
             <nav>
                 <ul>
@@ -24,6 +24,7 @@ const StyledNavbar = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 0;
+    background-color: #283618;
     
     h3 {
         color: #bc6c25;

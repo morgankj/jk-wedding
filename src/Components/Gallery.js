@@ -6,7 +6,7 @@ import GalleryPic from "./GalleryPic";
 export default function Gallery() {
   return (
     <StyledGallery>
-      <h1>GALLERY</h1>
+      <h1>Gallery</h1>
       <div className="galleryContainer" >
         { imageArr.map(obj => (<GalleryPic key={obj.id} picture={obj} />))}
       </div>
@@ -15,6 +15,11 @@ export default function Gallery() {
 }
 
 const StyledGallery = styled.div`
+    h1 {
+        font-size: 4rem;
+        padding: 3%;
+        color: #bc6c25;
+    }
     .galleryContainer {
         display: flex;
         justify-content: space-evenly;
