@@ -5,3 +5,8 @@ header, footer {
 header a, footer {
   color: #fefae0;
 }
+
+
+h1, h2, h3 {
+	font-family: 'Yellowtail', cursive;
+}
