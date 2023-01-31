@@ -16,9 +16,9 @@ export default function Gallery() {
 
 const StyledGallery = styled.div`
     h1 {
-        font-size: 4rem;
+        font-size: 5rem;
         padding: 3%;
-        color: #bc6c25;
+        color: #dda15e;
     }
     .galleryContainer {
         display: flex;

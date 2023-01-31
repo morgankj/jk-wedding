@@ -3,26 +3,43 @@ import styled from "styled-components";
 
 export default function GalleryPic({ picture }) {
   return (
-    <StyledGalleryPic>
+    <StyledGalleryPic className="galleryPic">
         <a href={picture.image} target="_blank" rel="noreferrer" >
-            <img alt={picture.altTag} src={picture.image} />
+            <div className="picContainer">
+                <div className="pic"
+                    style= {{
+                        backgroundImage: "url(" + picture.image + ")",
+                        backgroundPosition: "center",
+                        backgroundSize: "cover",
+                        backgroundRepeat: "no-repeat",
+                        height:"40vh",
+                        border: "1px solid #dda15e",
+                    }}
+                    ><p>{picture.text}</p>
+                </div>
+            </div>
         </a>
     </StyledGalleryPic>
   );
 }
 
 const StyledGalleryPic = styled.div`
-  width: 30%;
+    width: 30%;
+    margin: 1.5% auto;
 
-  img {
-    border: 1px solid #dda15e; /* Gray border */
-    border-radius: 4px; /* Rounded border */
-    padding: 5px; /* Some padding */
-    width: 100%; /* Set a small width */
-
-    :hover {
-    box-shadow: 0 0 2px 1px #bc6c25;
-    /* background-color: rgba(0,0,0,0.5); */
-  }
-  }
+    .pic p {
+        visibility: hidden; 
+    }
+    .pic:hover {
+        background-color: rgba(0, 0, 0, 0.5);;
+        background-blend-mode: overlay;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+            visibility: visible;
+            margin: 10%;
+        }
+    }
 `;
