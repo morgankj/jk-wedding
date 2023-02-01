@@ -13,7 +13,7 @@ export default function GalleryPic({ picture }) {
                         backgroundSize: "cover",
                         backgroundRepeat: "no-repeat",
                         height:"40vh",
-                        border: "1px solid #dda15e",
+                        border: "2px solid #dda15e",
                     }}
                     ><p>{picture.text}</p>
                 </div>

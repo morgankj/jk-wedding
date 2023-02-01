@@ -2,13 +2,13 @@ const imageArr = [
     {
         id: 1,
         image: require("../Images/Gallery/AquariumDate.jpg"),
-        text: "Jon and Morgan in face in hole cutouts of mermaids",
+        text: "J&M at the Austin Aquarium",
         altTag: "Jon and Morgan in face in hole cutouts of mermaids"
     },
     {
         id: 2,
         image: require("../Images/Gallery/BeforeMiamiTrip.jpg"),
-        text: "Jon and Morgan at the Airport",
+        text: "J&M at the Austin airport",
         altTag: "Jon and Morgan at the Airport"
     },
     {
@@ -20,127 +20,127 @@ const imageArr = [
     {
         id: 4,
         image: require("../Images/Gallery/ChrilesteEngagementParty.jpg"),
-        text: "Friends in a cozy backyard hangout",
+        text: "J&M at Chris and Celeste's engagement party",
         altTag: "Friends in a cozy backyard hangout"
     },
     {
         id: 5,
         image: require("../Images/Gallery/ChristmasEveService.jpg"),
-        text: "Jon and Morgan at a church Christmas Eve service",
+        text: "J&M at Life Austin Mueller church Christmas Eve service",
         altTag: "Jon and Morgan at a church Christmas Eve service"
     },
     {
         id: 6,
         image: require("../Images/Gallery/ChristmasHangout.jpg"),
-        text: "Jon and Morgan hug at Christmas",
+        text: "J&M relaxing at Christmastime",
         altTag: "Jon and Morgan hug at Christmas"
     },
     {
         id: 7,
         image: require("../Images/Gallery/ChristmasWithJoneses.jpg"),
-        text: "Jones family at Christmas",
+        text: "J&M with the Joneses in Fort Worth",
         altTag: "Jones family at Christmas"
     },
     {
         id: 8,
         image: require("../Images/Gallery/DinnerwithJoneses.jpg"),
-        text: "Jones family at chicken dinner",
+        text: "The Jones family at Whip-My-Soul",
         altTag: "Jones family at chicken dinner"
     },
     {
         id: 9,
         image: require("../Images/Gallery/ElderlyGameNight.jpg"),
-        text: "Friends dressed as old people",
+        text: "Game night with friends - elderly theme",
         altTag: "Friends dressed as old people"
     },
     {
         id: 10,
         image: require("../Images/Gallery/FirstFlightTogether.jpg"),
-        text: "Jon and Morgan on an airplane",
+        text: "J&M on an airplane",
         altTag: "Jon and Morgan on an airplane"
     },
     {
         id: 11,
         image: require("../Images/Gallery/FirstPicTogether.jpg"),
-        text: "Jon and Morgan in Jon's new car",
+        text: "J&M's first picture together - checking out Jon's new car",
         altTag: "Jon and Morgan in Jon's new car"
     },
     {
         id: 12,
         image: require("../Images/Gallery/FirstRanchTrip.jpg"),
-        text: "Jon and Morgan with Wil and KarieAnn at the Ranch",
+        text: "J&M hanging out with Wil and KarieAnn at their family ranch",
         altTag: "Jon and Morgan with Wil and KarieAnn at the Ranch"
     },
     {
         id: 13,
         image: require("../Images/Gallery/GangsterGameNight.jpg"),
-        text: "Jon and Morgan dressed as mobsters",
+        text: "Game night with friends - mobster theme",
         altTag: "Jon and Morgan dressed as mobsters"
     },
     {
         id: 14,
         image: require("../Images/Gallery/GingerBreadHouse.jpg"),
-        text: "Jon and Morgan with a gingerbread house",
+        text: "J&M with their gingerbread house",
         altTag: "Jon and Morgan with a gingerbread house"
     },
     {
         id: 15,
         image: require("../Images/Gallery/HalloweenJackolanterns.jpg"),
-        text: "Jon and Morgan with their Jack-o-lanterns",
+        text: "J&M with their Jack-o-lanterns",
         altTag: "Jon and Morgan with their Jack-o-lanterns"
     },
     {
         id: 16,
-        image: require("../Images/Gallery/HalloweenMeme.jpg"),
-        text: "Jon and Morgan in their halloween costume meme",
+        image: require("../Images/Gallery/HalloweenMeme.png"),
+        text: "J&M in their halloween costume meme",
         altTag: "Jon and Morgan in their halloween costume meme"
     },
     {
         id: 17,
         image: require("../Images/Gallery/JBdayDinner.jpg"),
-        text: "Jon and Morgan with friends at birthday dinner",
+        text: "J&M with friends at Jon's 31st birthday dinner",
         altTag: "Jon and Morgan with friends at birthday dinner"
     },
     {
         id: 18,
         image: require("../Images/Gallery/JCovidEdates.png"),
-        text: "Jon and Morgan hangout over zoom call",
+        text: "J&M zoom hangout while Jon had covid",
         altTag: "Jon and Morgan hangout over zoom call"
     },
     {
         id: 19,
         image: require("../Images/Gallery/JsBdayBaseball.jpg"),
-        text: "Jon and Morgan at the San Antonio baseball stadium",
+        text: "J&M at the San Antonio baseball stadium",
         altTag: "Jon and Morgan at the San Antonio baseball stadium"
     },
     {
         id: 20,
         image: require("../Images/Gallery/July4th.jpg"),
-        text: "Jon and Morgan at the 4th of July",
+        text: "J&M at the 4th of July",
         altTag: "Jon and Morgan at the 4th of July"
     },
     {
         id: 21,
         image: require("../Images/Gallery/KAWilBaptism.jpg"),
-        text: "Jon and Morgan with friends at their baptism",
+        text: "J&M with at Wil and KarieAnn's baptism",
         altTag: "Jon and Morgan with friends at their baptism"
     },
     {
         id: 22,
         image: require("../Images/Gallery/KeenHotelPoolVisit.jpg"),
-        text: "Jon and Morgan at hotel with a view",
+        text: "J&M visiting the Keens hotel with a view",
         altTag: "Jon and Morgan at hotel with a view"
     },
     {
         id: 23,
         image: require("../Images/Gallery/LakeTripwFriends.jpg"),
-        text: "Friends at lake",
+        text: "J&M with friends at the lake",
         altTag: "Friends at lake"
     },
     {
         id: 24,
         image: require("../Images/Gallery/MeetupBradley.jpg"),
-        text: "Jon and Morgan with Bradley and friend",
+        text: "J&M with Bradley and friend",
         altTag: "Jon and Morgan with Bradley and friend"
     },
     {
@@ -152,31 +152,31 @@ const imageArr = [
     {
         id: 26,
         image: require("../Images/Gallery/MiamiCubanFood.jpg"),
-        text: "Jon, Crystal, Bradley, and Morgan at Cuban restaurant",
+        text: "Jon, Crystal, Bradley, and Morgan at Cuban restaurant in Miami",
         altTag: "Jon, Crystal, Bradley, and Morgan at Cuban restaurant"
     },
     {
         id: 27,
         image: require("../Images/Gallery/MiamiGatorFarm.jpg"),
-        text: "Jon and Morgan at alligator farm",
+        text: "J&M at alligator farm",
         altTag: "Jon and Morgan at alligator farm"
     },
     {
         id: 28,
         image: require("../Images/Gallery/MiamiHotelBreakfast.jpg"),
-        text: "Jon, Morgan, and Allie at hotel breakfast",
+        text: "Jon, Morgan, and Allie at hotel breakfast in Miami",
         altTag: "Jon, Morgan, and Allie at hotel breakfast"
     },
     {
         id: 29,
         image: require("../Images/Gallery/MiamiWindyCar.jpg"),
-        text: "Jon and Morgan in windy car",
+        text: "J&M in a windy car through Miami",
         altTag: "Jon and Morgan in windy car"
     },
     {
         id: 30,
         image: require("../Images/Gallery/NewYearsRanch.jpg"),
-        text: "Friends at new years camping dinner",
+        text: "New Years 2023 camping trip with friends",
         altTag: "Friends at new years camping dinner"
     },
     {
@@ -188,19 +188,19 @@ const imageArr = [
     {
         id: 32,
         image: require("../Images/Gallery/Poppas80thDinnerPic.jpg"),
-        text: "Jon and Morgan at Poppa's 80th birthday",
+        text: "J&M at Poppa's 80th birthday",
         altTag: "Jon and Morgan at Poppa's 80th birthday"
     },
     {
         id: 33,
         image: require("../Images/Gallery/RanchHappy.jpg"),
-        text: "Jon and Morgan laugh and hug",
+        text: "J&M really like each other",
         altTag: "Jon and Morgan laugh and hug"
     },
     {
         id: 34,
         image: require("../Images/Gallery/SABotanicalGarden.jpg"),
-        text: "Jon and Morgan at the San Antonio Botanical Gardens",
+        text: "J&M at the San Antonio Botanical Gardens",
         altTag: "Jon and Morgan at the San Antonio Botanical Gardens"
     },
     {
@@ -212,13 +212,13 @@ const imageArr = [
     {
         id: 36,
         image: require("../Images/Gallery/SixFlags.jpg"),
-        text: "Jon and Morgan at Six Flags",
+        text: "J&M at Six Flags",
         altTag: "Jon and Morgan at Six Flags"
     },
     {
         id: 37,
         image: require("../Images/Gallery/SwimDateinLago.jpg"),
-        text: "Jon and Morgan at the lake in Lago Vista",
+        text: "J&M at the lake in Lago Vista",
         altTag: "Jon and Morgan at the lake in Lago Vista"
     },
 ]
