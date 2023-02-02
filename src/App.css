@@ -9,3 +9,13 @@ header a, footer {
 h1, h2, h3 {
 	font-family: 'Yellowtail', cursive;
 }
+
+h1 {
+  font-size: 5rem;
+  margin: 5% auto 3%;
+  color: #dda15e;
+}
+
+.bold {
+  font-weight: bold;
+}

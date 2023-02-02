@@ -21,9 +21,9 @@ export default function RSVPForm(props) {
       <div className="formInputs">
         <label>Name&nbsp;
             <input 
-                value = {formValues.first_name}
+                value = {formValues.name}
                 onChange = {onChange}
-                name = 'first_name'
+                name = 'name'
                 type = 'text'
             />
         </label><br/>
@@ -53,7 +53,7 @@ export default function RSVPForm(props) {
                 />
             </label><br/>
         </div>
-        <label>Who are you Bringing&nbsp;
+        <label>How Many People are Coming With You&nbsp;
             <input 
                 value = {formValues.whoWith}
                 onChange = {onChange}
@@ -76,4 +76,10 @@ export default function RSVPForm(props) {
 }
 
 const StyledRSVPForm = styled.form`
+  .formInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+  }
 `;
