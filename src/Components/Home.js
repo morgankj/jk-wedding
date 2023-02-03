@@ -28,7 +28,7 @@ export default function Home() {
         <div className="aboutUsContainer">
             <img alt="Jon hugging Morgan from behind" src={hugAtTheRanch} />
             <div className="aboutUsText">
-                <h1>About Us</h1>
+                <h1>- About Us -</h1>
                 <div>
                     <p>Jon and Morgan were two individuals who had accepted forever-single-dom, but both were frequently encouraged by friends and family to keep searching for a partner. In their great humility and excellent grace, Jon and Morgan take this opportunity to officially thank their loved ones for this “loving pressure,” because life truly came into full bloom when they finally found each other.</p>
                     <p>The pair first met through the dating app Bumble on February 28th, 2022. Jon always says that when Morgan reached out to him, something in him knew that he had to meet her. They went on their first date several days later at Pinballz arcade on March 4th, and history was made.</p>

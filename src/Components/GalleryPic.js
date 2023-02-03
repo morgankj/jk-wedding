@@ -6,7 +6,7 @@ export default function GalleryPic({ picture }) {
     <StyledGalleryPic className="galleryPic">
         <a href={picture.image} target="_blank" rel="noreferrer" >
             <div className="picContainer">
-                <div className="pic"
+                <div className="pic" alt={picture.altTag}
                     style= {{
                         backgroundImage: "url(" + picture.image + ")",
                         backgroundPosition: "center",
