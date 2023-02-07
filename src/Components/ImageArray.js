@@ -122,7 +122,7 @@ export const adventureArr = [
     {
         id: 21,
         image: require("../Images/AdventureGallery/KAWilBaptism.jpg"),
-        text: "Jon and Morgan with at Wil and KarieAnn's baptism",
+        text: "Jon and Morgan at Wil and KarieAnn's baptism",
         altTag: "Jon and Morgan with friends at their baptism"
     },
     {
@@ -220,6 +220,12 @@ export const adventureArr = [
         image: require("../Images/AdventureGallery/SwimDateinLago.jpg"),
         text: "Jon and Morgan at the lake in Lago Vista",
         altTag: "Jon and Morgan at the lake in Lago Vista"
+    },
+    {
+        id: 38,
+        image: require("../Images/AdventureGallery/JMIceCream.jpg"),
+        text: "Jon and Morgan having rolled ice cream at H-Mart",
+        altTag: "Jon and Morgan with ice cream"
     },
 ]
 

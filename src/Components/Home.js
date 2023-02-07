@@ -19,7 +19,7 @@ export default function Home() {
                     <p><span className="bold">Where:</span> 3610 Lohman Ford Rd, Lago Vista, TX 78645</p>
                     <p><span className="bold">When:</span> August 7th starting at 4pm</p>
                 </div>
-                <p>Please RSVP <a href="/rsvp" >here</a> by July 7th.</p>
+                <p className="bold">Please RSVP <a href="/rsvp" >here</a> by July 7th.</p>
                 <p>Taco Bell and wedding cake will be served buffet style!</p>
                 <p>To see a full breakdown of the menu, click <a href="https://www.tacobell.com/" target="_blank" rel="noreferrer">here</a></p>
             </div>

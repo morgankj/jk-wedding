@@ -46,7 +46,8 @@ export default function Rsvp() {
       <h1>RSVP</h1>
       <div className="panelContainer">
         <div className="rsvpWeddingDetails">
-          <h2>Details</h2>
+          <h2>- Details -</h2>
+          <p className="brown bold">Please RSVP by July 7th.</p>
           <div className="whereWhen">
             <p>
               <span className="bold">Where:</span> 3610 Lohman Ford Rd, Lago
@@ -56,7 +57,6 @@ export default function Rsvp() {
               <span className="bold">When:</span> August 7th starting at 4pm
             </p>
           </div>
-          <p>Please RSVP by July 7th.</p>
           <p>Taco Bell and wedding cake will be served buffet style!</p>
           <p>
             To see a full breakdown of the menu, click{" "}
@@ -89,13 +89,19 @@ const StyledRsvp = styled.div`
   h2 {
     font-size: 3rem;
   }
-  .rsvpTicketHeader, .rsvpWeddingDetails h2 {
-    margin-bottom: 5%;
+  .brown {
+    color: #bc6c25;
   }
   .panelContainer {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .rsvpWeddingDetails {
+    margin-left: 3rem;
+  }
+  .rsvpTicketHeader, .rsvpWeddingDetails h2 {
+    margin-bottom: 5%;
   }
   .whereWhen {
     margin-bottom: 2rem;

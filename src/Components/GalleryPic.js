@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default function GalleryPic({ picture }) {
   return (
     <StyledGalleryPic className="galleryPic">
-        <a href={picture.image} target="_blank" rel="noreferrer" >
+        {/* <a href={picture.image} target="_blank" rel="noreferrer" >
             <div className="picContainer">
                 <div className="pic" alt={picture.altTag}
                     style= {{
@@ -18,7 +18,22 @@ export default function GalleryPic({ picture }) {
                     ><p>{picture.text}</p>
                 </div>
             </div>
-        </a>
+        </a> */}
+        
+        <div className="picContainer">
+            <div className="pic" alt={picture.altTag}
+                style= {{
+                    backgroundImage: "url(" + picture.image + ")",
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                    height:"40vh",
+                    border: "2px solid #dda15e",
+                }}
+                ><p>{picture.text}</p>
+            </div>
+        </div>
+        
     </StyledGalleryPic>
   );
 }

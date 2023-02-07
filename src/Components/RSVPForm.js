@@ -62,19 +62,19 @@ export default function RSVPForm(props) {
           <br />
         </div>
         <label>
-          How Many People are Coming With You&nbsp;
+          How Many People in Your Party&nbsp;
           <input
             value={formValues.whoWith}
             onChange={onChange}
             name="whoWith"
             type="text"
-            placeholder="number of people in your party"
+            placeholder="Including yourself"
           />
         </label>
         <br />
-        <label>
+        <label className="specialNotes">
           Special Notes&nbsp;
-          <input
+          <textarea
             value={formValues.specialNotes}
             onChange={onChange}
             name="specialNotes"
@@ -96,8 +96,12 @@ const StyledRSVPForm = styled.form`
     /* justify-content: flex-start; */
   }
   .attending {
+    text-align: right;
+    margin: 1rem 0;
+    border: solid grey 1px;
+    padding: 1.5rem;
+  }
+  .specialNotes {
     display: flex;
-    flex-direction: column;
-    align-items: right;
   }
 `;
