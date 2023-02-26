@@ -227,6 +227,12 @@ export const adventureArr = [
         text: "Jon and Morgan having rolled ice cream at H-Mart",
         altTag: "Jon and Morgan with ice cream"
     },
+    {
+        id: 39,
+        image: require("../Images/AdventureGallery/ChrilesteWedding.jpg"),
+        text: "Jon and Morgan at Chris and Celeste's Wedding",
+        altTag: "Jon and Morgan smile at wedding reception"
+    },
 ]
 
 export const engagementArr = [

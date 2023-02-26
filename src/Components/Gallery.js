@@ -9,16 +9,21 @@ import GalleryPic from "./GalleryPic";
 const modal = document.getElementsByClassName("imageModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-const img = document.getElementsByClassName("galleryPic");
-console.log("Img: ", img.length, img);
+let imgs = document.getElementsByClassName("galleryPic");
+
+Array.from(imgs).forEach(img => {
+  img.onclick = function(){
+    console.log("Clicked picture");
+    // modal.style.display = "block";
+    // modalImg.src = this.src;
+    // captionText.innerHTML = this.alt;
+  }
+});
+
+console.log("Img: ", imgs[0]);
 // const modalPicture = document.getElementByClassName("img01");
 // const captionText = document.getElementByClassName("imageCaption");
-img.onclick = function(){
-  console.log("Clicked picture");
-  // modal.style.display = "block";
-  // modalImg.src = this.src;
-  // captionText.innerHTML = this.alt;
-}
+
 
 // Get the <span> element that closes the modal
 const span = document.getElementsByClassName("close")[0];
@@ -51,7 +56,7 @@ export default function Gallery() {
       </div>
       <div className="imageModal">
         <span className="close">&times;</span>
-        <img className="modalPicture" />
+        <img className="modalPicture" alt="Jon and Morgan"/>
         <div className="imageCaption"></div>
       </div>
     </StyledGallery>
