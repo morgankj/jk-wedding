@@ -233,6 +233,12 @@ export const adventureArr = [
         text: "Jon and Morgan at Chris and Celeste's Wedding",
         altTag: "Jon and Morgan smile at wedding reception"
     },
+    {
+        id: 40,
+        image: require("../Images/AdventureGallery/MagicTournament.jpg"),
+        text: "Jon, Morgan, and Matt at a Magic the Gathering card tournament",
+        altTag: "Jon, Morgan, and Matt at a Magic the Gathering card tournament"
+    },
 ]
 
 export const engagementArr = [
