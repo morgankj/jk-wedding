@@ -239,6 +239,12 @@ export const adventureArr = [
         text: "Jon, Morgan, and Matt at a Magic the Gathering card tournament",
         altTag: "Jon, Morgan, and Matt at a Magic the Gathering card tournament"
     },
+    {
+        id: 41,
+        image: require("../Images/AdventureGallery/July4th2.jpg"),
+        text: "Jon and Morgan enjoying 4th of July snacks with family",
+        altTag: "Jon and Morgan enjoying 4th of July snacks with family"
+    },
 ]
 
 export const engagementArr = [
