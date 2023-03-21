@@ -119,131 +119,132 @@ export const adventureArr = [
         text: "Jon and Morgan at the 4th of July",
         altTag: "Jon and Morgan at the 4th of July"
     },
+
     {
         id: 21,
+        image: require("../Images/AdventureGallery/July4th2.jpg"),
+        text: "Jon and Morgan enjoying 4th of July snacks with family",
+        altTag: "Jon and Morgan enjoying 4th of July snacks with family"
+    },
+    {
+        id: 22,
         image: require("../Images/AdventureGallery/KAWilBaptism.jpg"),
         text: "Jon and Morgan at Wil and KarieAnn's baptism",
         altTag: "Jon and Morgan with friends at their baptism"
     },
     {
-        id: 22,
+        id: 23,
         image: require("../Images/AdventureGallery/KeenHotelPoolVisit.jpg"),
         text: "Jon and Morgan visiting the Keens at a hotel with a view",
         altTag: "Jon and Morgan at hotel with a view"
     },
     {
-        id: 23,
+        id: 24,
         image: require("../Images/AdventureGallery/LakeTripwFriends.jpg"),
         text: "Jon and Morgan with friends at the lake",
         altTag: "Friends at lake"
     },
     {
-        id: 24,
+        id: 25,
         image: require("../Images/AdventureGallery/MeetupBradley.jpg"),
         text: "Jon and Morgan with Bradley and friend",
         altTag: "Jon and Morgan with Bradley and friend"
     },
     {
-        id: 25,
+        id: 26,
         image: require("../Images/AdventureGallery/MiamiCJRestaurant.png"),
         text: "Keen family at CJ's restaurant",
         altTag: "Keen family at CJ's restaurant"
     },
     {
-        id: 26,
+        id: 27,
         image: require("../Images/AdventureGallery/MiamiCubanFood.jpg"),
         text: "Jon, Crystal, Bradley, and Morgan at Cuban restaurant in Miami",
         altTag: "Jon, Crystal, Bradley, and Morgan at Cuban restaurant"
     },
     {
-        id: 27,
+        id: 28,
         image: require("../Images/AdventureGallery/MiamiGatorFarm.jpg"),
         text: "Jon and Morgan at alligator farm",
         altTag: "Jon and Morgan at alligator farm"
     },
     {
-        id: 28,
+        id: 29,
         image: require("../Images/AdventureGallery/MiamiHotelBreakfast.jpg"),
         text: "Jon, Morgan, and Allie at hotel breakfast in Miami",
         altTag: "Jon, Morgan, and Allie at hotel breakfast"
     },
     {
-        id: 29,
+        id: 30,
         image: require("../Images/AdventureGallery/MiamiWindyCar.jpg"),
         text: "Jon and Morgan in a windy car through Miami",
         altTag: "Jon and Morgan in windy car"
     },
     {
-        id: 30,
+        id: 31,
         image: require("../Images/AdventureGallery/NewYearsRanch.jpg"),
         text: "New Years 2023 camping trip with friends",
         altTag: "Friends at new years camping dinner"
     },
     {
-        id: 31,
+        id: 32,
         image: require("../Images/AdventureGallery/Poppas80thDinner.jpg"),
         text: "Jon, Morgan, Ellie, and Allie at Poppa's 80th birthday",
         altTag: "Jon, Morgan, Ellie, and Allie at Poppa's 80th birthday"
     },
     {
-        id: 32,
+        id: 33,
         image: require("../Images/AdventureGallery/Poppas80thDinnerPic.jpg"),
         text: "Jon and Morgan at Poppa's 80th birthday",
         altTag: "Jon and Morgan at Poppa's 80th birthday"
     },
     {
-        id: 33,
+        id: 34,
         image: require("../Images/AdventureGallery/RanchHappy.jpg"),
         text: "Jon and Morgan really like each other",
         altTag: "Jon and Morgan laugh and hug"
     },
     {
-        id: 34,
+        id: 35,
         image: require("../Images/AdventureGallery/SABotanicalGarden.jpg"),
         text: "Jon and Morgan at the San Antonio Botanical Gardens",
         altTag: "Jon and Morgan at the San Antonio Botanical Gardens"
     },
     {
-        id: 35,
+        id: 36,
         image: require("../Images/AdventureGallery/SAVisit.png"),
         text: "Jon, Morgan, and Emily hangout",
         altTag: "Jon, Morgan, and Emily hangout"
     },
     {
-        id: 36,
+        id: 37,
         image: require("../Images/AdventureGallery/SixFlags.jpg"),
         text: "Jon and Morgan at Six Flags",
         altTag: "Jon and Morgan at Six Flags"
     },
     {
-        id: 37,
+        id: 38,
         image: require("../Images/AdventureGallery/SwimDateinLago.jpg"),
         text: "Jon and Morgan at the lake in Lago Vista",
         altTag: "Jon and Morgan at the lake in Lago Vista"
     },
     {
-        id: 38,
+        id: 39,
         image: require("../Images/AdventureGallery/JMIceCream.jpg"),
         text: "Jon and Morgan having rolled ice cream at H-Mart",
         altTag: "Jon and Morgan with ice cream"
     },
     {
-        id: 39,
+        id: 40,
         image: require("../Images/AdventureGallery/ChrilesteWedding.jpg"),
         text: "Jon and Morgan at Chris and Celeste's Wedding",
         altTag: "Jon and Morgan smile at wedding reception"
     },
     {
-        id: 40,
+        id: 41,
         image: require("../Images/AdventureGallery/MagicTournament.jpg"),
         text: "Jon, Morgan, and Matt at a Magic the Gathering card tournament",
         altTag: "Jon, Morgan, and Matt at a Magic the Gathering card tournament"
-    },
-    {
-        id: 41,
-        image: require("../Images/AdventureGallery/July4th2.jpg"),
-        text: "Jon and Morgan enjoying 4th of July snacks with family",
-        altTag: "Jon and Morgan enjoying 4th of July snacks with family"
     },
 ]
 
