@@ -249,26 +249,26 @@ export const adventureArr = [
     {
         id: 42,
         image: require("../Images/AdventureGallery/FutureFashion.jpg"),
-        text: "Jon and Morgan at the lake in Lago Vista",
-        altTag: "Jon and Morgan at the lake in Lago Vista"
+        text: "Future Fashion themed game night with friends",
+        altTag: "friends dressed in future fashion"
     },
     {
         id: 43,
         image: require("../Images/AdventureGallery/JMEaster.jpg"),
-        text: "Jon and Morgan having rolled ice cream at H-Mart",
-        altTag: "Jon and Morgan with ice cream"
+        text: "Jon and Morgan celebrate  Easter 2023",
+        altTag: "Jon and Morgan in front of flowers"
     },
     {
         id: 44,
         image: require("../Images/AdventureGallery/JoshSoccerGame.jpg"),
-        text: "Jon and Morgan at Chris and Celeste's Wedding",
-        altTag: "Jon and Morgan smile at wedding reception"
+        text: "Jon, Morgan, Joshua, and Allie at Joshua's soccer game",
+        altTag: "Jon and Morgan with niece and nephew"
     },
     {
         id: 45,
         image: require("../Images/AdventureGallery/RREBaseball.jpg"),
-        text: "Jon, Morgan, and Matt at a Magic the Gathering card tournament",
-        altTag: "Jon, Morgan, and Matt at a Magic the Gathering card tournament"
+        text: "Enjoying a Round Rock Express game with family",
+        altTag: "Jon and Morgan in baseball stadium"
     },
 ]
 
