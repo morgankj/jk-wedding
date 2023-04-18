@@ -1,69 +1,69 @@
 export const adventureArr = [
     {
         id: 1,
+        image: require("../Images/AdventureGallery/FirstPicTogether.jpg"),
+        text: "Jon and Morgan's first picture together - checking out Jon's new car",
+        altTag: "Jon and Morgan in Jon's new car"
+    },
+    {
+        id: 2,
         image: require("../Images/AdventureGallery/AquariumDate.jpg"),
         text: "Jon and Morgan at the Austin Aquarium",
         altTag: "Jon and Morgan in face in hole cutouts of mermaids"
     },
     {
-        id: 2,
+        id: 3,
         image: require("../Images/AdventureGallery/BeforeMiamiTrip.jpg"),
         text: "Jon and Morgan at the Austin airport",
         altTag: "Jon and Morgan at the Airport"
     },
     {
-        id: 3,
+        id: 4,
         image: require("../Images/AdventureGallery/BradleyCapital.jpg"),
         text: "Jon, Morgan, and Bradley at the Austin Capital",
         altTag: "Jon, Morgan, and Bradley at the Austin Capital"
     },
     {
-        id: 4,
+        id: 5,
         image: require("../Images/AdventureGallery/ChrilesteEngagementParty.jpg"),
         text: "Jon and Morgan at Chris and Celeste's engagement party",
         altTag: "Friends in a cozy backyard hangout"
     },
     {
-        id: 5,
+        id: 6,
         image: require("../Images/AdventureGallery/ChristmasEveService.jpg"),
         text: "Jon and Morgan at Life Austin Mueller church Christmas Eve service",
         altTag: "Jon and Morgan at a church Christmas Eve service"
     },
     {
-        id: 6,
+        id: 7,
         image: require("../Images/AdventureGallery/ChristmasHangout.jpg"),
         text: "Jon and Morgan relaxing at Christmastime",
         altTag: "Jon and Morgan hug at Christmas"
     },
     {
-        id: 7,
+        id: 8,
         image: require("../Images/AdventureGallery/ChristmasWithJoneses.jpg"),
         text: "Jon and Morgan with the Joneses in Fort Worth",
         altTag: "Jones family at Christmas"
     },
     {
-        id: 8,
+        id: 9,
         image: require("../Images/AdventureGallery/DinnerwithJoneses.jpg"),
         text: "The Jones family at Whip-My-Soul",
         altTag: "Jones family at chicken dinner"
     },
     {
-        id: 9,
+        id: 10,
         image: require("../Images/AdventureGallery/ElderlyGameNight.jpg"),
         text: "Game night with friends - elderly theme",
         altTag: "Friends dressed as old people"
     },
     {
-        id: 10,
+        id: 11,
         image: require("../Images/AdventureGallery/FirstFlightTogether.jpg"),
         text: "Jon and Morgan on an airplane",
         altTag: "Jon and Morgan on an airplane"
-    },
-    {
-        id: 11,
-        image: require("../Images/AdventureGallery/FirstPicTogether.jpg"),
-        text: "Jon and Morgan's first picture together - checking out Jon's new car",
-        altTag: "Jon and Morgan in Jon's new car"
     },
     {
         id: 12,
